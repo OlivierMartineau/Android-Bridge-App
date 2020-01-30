@@ -267,13 +267,13 @@ public class BridgeActivity extends Activity {
                     } else {
                         mRCIconView.setColorFilter(getResources().getColor(android.R.color.holo_purple),
                                 android.graphics.PorterDuff.Mode.MULTIPLY);
-                        DJILogger.logConnectionChange(DJILogger.CONNECTION_RC, DJILogger.CONNTECTION_WARNING);
+                        DJILogger.logConnectionChange(DJILogger.CONNECTION_RC, DJILogger.CONNECTION_WARNING);
                     }
                 } else {
                     if (isRCConnected.get()) {
                         mRCIconView.setColorFilter(getResources().getColor(android.R.color.holo_purple),
                                 android.graphics.PorterDuff.Mode.MULTIPLY);
-                        DJILogger.logConnectionChange(DJILogger.CONNECTION_RC, DJILogger.CONNTECTION_WARNING);
+                        DJILogger.logConnectionChange(DJILogger.CONNECTION_RC, DJILogger.CONNECTION_WARNING);
                     } else {
                         mRCIconView.setColorFilter(getResources().getColor(android.R.color.holo_red_light),
                                 PorterDuff.Mode.MULTIPLY);
