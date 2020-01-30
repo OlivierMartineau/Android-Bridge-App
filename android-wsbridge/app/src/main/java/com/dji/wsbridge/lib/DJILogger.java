@@ -28,7 +28,7 @@ public class DJILogger extends Thread {
 
     public static final String CONNECTION_GOOD = "good";
     public static final String CONNECTION_BAD = "bad";
-    public static final String CONNTECTION_WARNING = "warning";
+    public static final String CONNECTION_WARNING = "warning";
     public static final int CONNECTION_RC = 1;
     public static final int CONNECTION_BRIDGE = 2;
     private static final String TAG = "RemoteLogger";
@@ -199,7 +199,7 @@ public class DJILogger extends Thread {
 
     @Retention(RetentionPolicy.CLASS)
     @StringDef({
-            CONNECTION_BAD, CONNECTION_GOOD, CONNTECTION_WARNING
+            CONNECTION_BAD, CONNECTION_GOOD, CONNECTION_WARNING
     })
     @interface ConnetionValueParam {
     }
